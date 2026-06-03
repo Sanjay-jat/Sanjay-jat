@@ -18,7 +18,7 @@
 
 ## 🧠 About me
 
-🎓 &nbsp;B.Tech CSE student at a Jaipur university — final year  
+🎓 &nbsp;B.Tech CSE student at a Jaipur university — 3rd year  
 💻 &nbsp;Building **production-deployed** AI/ML systems, not just notebooks  
 🤖 &nbsp;Strong interest in ML, NLP, and intelligent systems   
 🌱 &nbsp;Currently exploring **Machine-Learning**,**LLM agents**, RAG systems, and system design  
