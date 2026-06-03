@@ -20,9 +20,8 @@
 
 🎓 &nbsp;B.Tech CSE student at a Jaipur university — final year  
 💻 &nbsp;Building **production-deployed** AI/ML systems, not just notebooks  
-🤖 &nbsp;Strong interest in ML, NLP, and intelligent systems  
-🚀 &nbsp;All my projects have live demos — I care about shipping, not just learning  
-🌱 &nbsp;Currently exploring **LLM agents**, RAG systems, and system design  
+🤖 &nbsp;Strong interest in ML, NLP, and intelligent systems   
+🌱 &nbsp;Currently exploring **Machine-Learning**,**LLM agents**, RAG systems, and system design  
 💼 &nbsp;Open to ML/backend internships and collaborations  
 📍 &nbsp;Based in Jaipur, India
 
@@ -118,21 +117,6 @@ Real-time ML dashboard for Gold & Silver price prediction with live tracking, te
 ![Render](https://img.shields.io/badge/Render-46E3B7?style=flat-square&logo=render&logoColor=black)
 ![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=flat-square&logo=supabase&logoColor=white)
 
----
-
-## 📊 GitHub stats
-
-<div align="center">
-
-![GitHub stats](https://github-readme-stats.vercel.app/api?username=Sanjay-jat&show_icons=true&theme=default&hide_border=true&count_private=true)
-
-![Top languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Sanjay-jat&layout=compact&hide_border=true)
-
-![GitHub streak](https://github-readme-streak-stats.herokuapp.com/?user=Sanjay-jat&hide_border=true)
-
-</div>
-
----
 
 ## 🔭 What's next
 
@@ -145,12 +129,10 @@ Real-time ML dashboard for Gold & Silver price prediction with live tracking, te
 
 ## 💬 A note on my work
 
-> Most student ML projects predict stock prices with LSTM and claim 95% accuracy.
-> Mine predicts *direction* with XGBoost, shows real accuracy (51–59%), and runs in
-> production with a real database, real users, and automated retraining.
->
-> I'd rather be honest about a 59% model that's deployed than dishonest about a
-> 99% model that only works on training data.
+I started with a Streamlit app predicting gold prices.
+Then rebuilt it as a full-stack platform with a real backend, real auth, and real ML pipeline.
+
+That's how I learn — ship something, find what's broken, build it better.
 
 ---
 
