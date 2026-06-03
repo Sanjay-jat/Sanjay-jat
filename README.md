@@ -1,13 +1,16 @@
 <div align="center">
 
 # Hey, I'm Sanjay Jat 👋
-### Full-Stack AI/ML Developer · B.Tech CSE · Jaipur, India
+
+**Full-Stack AI/ML Developer · B.Tech CSE · Jaipur, India**
 
 *I don't just build models — I ship products.*
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/sanjay-jat-250767346)
-[![Portfolio](https://img.shields.io/badge/Live%20Demo-FinanceAI-00C853?style=for-the-badge&logo=vercel&logoColor=white)](https://finance-ai-eight-vert.vercel.app)
-[![Email](https://img.shields.io/badge/Email-sanjayjat354339@gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:sanjayjat354339@gmail.com)
+<br/>
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/sanjay-jat-250767346)&nbsp;&nbsp;
+[![FinanceAI](https://img.shields.io/badge/Live%20Demo%20→%20FinanceAI-00C853?style=flat-square&logo=vercel&logoColor=white)](https://finance-ai-eight-vert.vercel.app)&nbsp;&nbsp;
+[![Gmail](https://img.shields.io/badge/sanjayjat354339%40gmail.com-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:sanjayjat354339@gmail.com)
 
 </div>
 
@@ -48,8 +51,8 @@ React Frontend  →  FastAPI Backend  →  XGBoost ML Engine  →  PostgreSQL (S
 - ⚡ 5-minute response caching on yfinance calls
 
 [![Live Demo](https://img.shields.io/badge/🌐%20Live%20Demo-finance--ai--eight--vert.vercel.app-00C853?style=flat-square)](https://finance-ai-eight-vert.vercel.app)
-[![Repo](https://img.shields.io/badge/📁%20GitHub-FinanceAI-181717?style=flat-square)](https://github.com/Sanjay-jat/FinanceAI)
-[![Swagger](https://img.shields.io/badge/📖%20API%20Docs-Swagger%20UI-85EA2D?style=flat-square)](https://financeai-backend-0iqu.onrender.com/docs)
+[![Repo](https://img.shields.io/badge/GitHub-FinanceAI-181717?style=flat-square&logo=github)](https://github.com/Sanjay-jat/FinanceAI)
+[![Swagger](https://img.shields.io/badge/API%20Docs-Swagger%20UI-85EA2D?style=flat-square)](https://financeai-backend-0iqu.onrender.com/docs)
 
 | Asset | Model | Accuracy | F1 Score |
 |---|---|---|---|
@@ -64,8 +67,8 @@ React Frontend  →  FastAPI Backend  →  XGBoost ML Engine  →  PostgreSQL (S
 
 An NLP-powered web app that classifies resumes into job roles using TF-IDF vectorization and a trained classifier — deployed live on Render.
 
-[![Live Demo](https://img.shields.io/badge/🌐%20Live%20Demo-resume--screening--ai-00C853?style=flat-square)](https://resume-screening-ai-a2fn.onrender.com/)
-[![Repo](https://img.shields.io/badge/📁%20GitHub-Resume--Screening--AI-181717?style=flat-square)](https://github.com/Sanjay-jat/Resume-Screening-AI)
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-resume--screening--ai-00C853?style=flat-square&logo=render)](https://resume-screening-ai-a2fn.onrender.com/)
+[![Repo](https://img.shields.io/badge/GitHub-Resume--Screening--AI-181717?style=flat-square&logo=github)](https://github.com/Sanjay-jat/Resume-Screening-AI)
 
 `Python` `Flask` `NLTK` `TF-IDF` `scikit-learn` `Render`
 
@@ -76,7 +79,7 @@ An NLP-powered web app that classifies resumes into job roles using TF-IDF vecto
 
 Data analysis project studying how the Fear & Greed Index correlates with trader PnL, frequency, and risk. Key finding: traders take their **biggest risks during Fear** — but earn highest profits during **Extreme Greed**.
 
-[![Repo](https://img.shields.io/badge/📁%20GitHub-trader--sentiment--analysis-181717?style=flat-square)](https://github.com/Sanjay-jat/trader-sentiment-analysis)
+[![Repo](https://img.shields.io/badge/GitHub-trader--sentiment--analysis-181717?style=flat-square&logo=github)](https://github.com/Sanjay-jat/trader-sentiment-analysis)
 
 `Python` `Pandas` `NumPy` `Matplotlib` `Seaborn` `Jupyter`
 
@@ -87,8 +90,8 @@ Data analysis project studying how the Fear & Greed Index correlates with trader
 
 Real-time ML dashboard for Gold & Silver price prediction with live tracking, technical indicators, and trading recommendations.
 
-[![Live Demo](https://img.shields.io/badge/🌐%20Live%20Demo-Streamlit%20App-FF4B4B?style=flat-square)](https://gold-silver-price-prediction-33mkvwserlqin569rpk8ly.streamlit.app/)
-[![Repo](https://img.shields.io/badge/📁%20GitHub-gold--silver--price--prediction-181717?style=flat-square)](https://github.com/Sanjay-jat/gold-silver-price-prediction)
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-Streamlit%20App-FF4B4B?style=flat-square&logo=streamlit)](https://gold-silver-price-prediction-33mkvwserlqin569rpk8ly.streamlit.app/)
+[![Repo](https://img.shields.io/badge/GitHub-gold--silver--price--prediction-181717?style=flat-square&logo=github)](https://github.com/Sanjay-jat/gold-silver-price-prediction)
 
 `Python` `scikit-learn` `Streamlit` `yfinance` `Plotly`
 
@@ -96,31 +99,27 @@ Real-time ML dashboard for Gold & Silver price prediction with live tracking, te
 
 ## 🛠️ Tech stack
 
-<div align="center">
-
 **Languages & Frameworks**
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
+![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+![Flask](https://img.shields.io/badge/Flask-000000?style=flat-square&logo=flask&logoColor=white)
 
 **ML & Data**
 
-![XGBoost](https://img.shields.io/badge/XGBoost-FF6600?style=for-the-badge)
-![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
-![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
-![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
+![XGBoost](https://img.shields.io/badge/XGBoost-FF6600?style=flat-square)
+![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white)
+![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white)
 
 **Databases & Deployment**
 
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
-![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
-![Render](https://img.shields.io/badge/Render-46E3B7?style=for-the-badge&logo=render&logoColor=black)
-![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white)
-
-</div>
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=flat-square&logo=postgresql&logoColor=white)
+![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white)
+![Render](https://img.shields.io/badge/Render-46E3B7?style=flat-square&logo=render&logoColor=black)
+![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=flat-square&logo=supabase&logoColor=white)
 
 ---
 
@@ -141,7 +140,7 @@ Real-time ML dashboard for Gold & Silver price prediction with live tracking, te
 ## 🔭 What's next
 
 - [ ] 🤖 LangGraph AI agent — explain *why* the model said BUY or SELL in plain English
-- [ ] 📚 RAG document Q&A system — upload any PDF, ask questions about it
+- [ ] 📚 RAG document Q&A — upload any PDF, ask questions about it
 - [ ] 🌍 Macro features — DXY, VIX, Crude Oil, INR/USD added to FinanceAI
 - [ ] 📧 Email alerts on signal change
 
@@ -150,9 +149,11 @@ Real-time ML dashboard for Gold & Silver price prediction with live tracking, te
 ## 💬 A note on my work
 
 > Most student ML projects predict stock prices with LSTM and claim 95% accuracy.
-> Mine predicts *direction* with XGBoost, shows real accuracy (51–59%), and runs in production with a real database, real users, and automated retraining.
+> Mine predicts *direction* with XGBoost, shows real accuracy (51–59%), and runs in
+> production with a real database, real users, and automated retraining.
 >
-> I'd rather be honest about a 59% model that's deployed than dishonest about a 99% model that only works on training data.
+> I'd rather be honest about a 59% model that's deployed than dishonest about a
+> 99% model that only works on training data.
 
 ---
 
@@ -160,6 +161,6 @@ Real-time ML dashboard for Gold & Silver price prediction with live tracking, te
 
 **Open to internships, collaborations, and interesting problems.**
 
-[![LinkedIn](https://img.shields.io/badge/Let's%20connect-LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/sanjay-jat-250767346)
+[![Let's connect](https://img.shields.io/badge/Let's%20connect%20on%20LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/sanjay-jat-250767346)
 
 </div>
