@@ -1,145 +1,234 @@
 <div align="center">
 
-# Hey, I'm Sanjay Jat 👋
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=24&pause=1000&color=58A6FF&center=true&vCenter=true&width=600&lines=Hi%2C+I'm+Sanjay+Jat;I+build+Agentic+AI+Systems;LLMs+%C2%B7+RAG+%C2%B7+LangGraph+%C2%B7+MCP;Currently+debugging+an+agent...+again" alt="Typing SVG" />
 
-**Full-Stack AI/ML Developer · B.Tech CSE · Jaipur, India**
-
-*I don't just build models — I ship products.*
-
-<br/>
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/sanjay-jat-250767346)&nbsp;&nbsp;
-[![FinanceAI](https://img.shields.io/badge/Live%20Demo%20→%20FinanceAI-00C853?style=flat-square&logo=vercel&logoColor=white)](https://finance-ai-eight-vert.vercel.app)&nbsp;&nbsp;
-[![Gmail](https://img.shields.io/badge/sanjayjat354339%40gmail.com-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:sanjayjat354339@gmail.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/sanjay-jat-250767346)
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Sanjay-jat)
+[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:sanjayjat354339@gmail.com)
 
 </div>
 
----
-
-## 🧠 About me
-
-🎓 &nbsp;B.Tech CSE student at a Jaipur university — 3rd year  
-💻 &nbsp;Building **production-deployed** AI/ML systems, not just notebooks  
-🤖 &nbsp;Strong interest in ML, NLP, and intelligent systems   
-🌱 &nbsp;Currently exploring **Machine-Learning**,**LLM agents**, RAG systems, and system design  
-💼 &nbsp;Open to ML/backend internships and collaborations  
-📍 &nbsp;Based in Jaipur, India
-
----
-
-## 🚀 What I've shipped
-
-### 🏆 FinanceAI — Financial Signal Classification System
-> *The project I'm most proud of. Built everything from scratch.*
-
-A **production-deployed, full-stack ML platform** that generates next-day BUY/SELL signals for Gold, Silver & Nifty 50 — trained on 10 years of market data.
-
-```
-React Frontend  →  FastAPI Backend  →  XGBoost ML Engine  →  PostgreSQL (Supabase)
-     Vercel              Render              APScheduler
-```
-
-**What makes it real:**
-- 🔐 JWT authentication + freemium access model (like actual SaaS)
-- 📊 Backtesting engine across 1M / 3M / 6M / 1Y windows
-- 🔄 Automated weekly model retraining via APScheduler — zero manual work
-- 📰 Live financial news (Bloomberg, Reuters, Livemint via NewsAPI)
-- ⚡ 5-minute response caching on yfinance calls
-
-[![Live Demo](https://img.shields.io/badge/🌐%20Live%20Demo-finance--ai--eight--vert.vercel.app-00C853?style=flat-square)](https://finance-ai-eight-vert.vercel.app)
-[![Repo](https://img.shields.io/badge/GitHub-FinanceAI-181717?style=flat-square&logo=github)](https://github.com/Sanjay-jat/FinanceAI)
-[![Swagger](https://img.shields.io/badge/API%20Docs-Swagger%20UI-85EA2D?style=flat-square)](https://financeai-backend-0iqu.onrender.com/docs)
-
-| Asset | Model | Accuracy | F1 Score |
-|---|---|---|---|
-| 🥇 Gold | XGBoost | 59% | 0.53 |
-| 🥈 Silver | XGBoost | 51% | 0.49 |
-| 📈 Nifty 50 | XGBoost | 52% | 0.48 |
-
----
-
-### 📄 Resume Screening AI — NLP Job Role Classifier
-> *Upload resume text → get your predicted job role + confidence score.*
-
-An NLP-powered web app that classifies resumes into job roles using TF-IDF vectorization and a trained classifier — deployed live on Render.
-
-[![Live Demo](https://img.shields.io/badge/Live%20Demo-resume--screening--ai-00C853?style=flat-square&logo=render)](https://resume-screening-ai-a2fn.onrender.com/)
-[![Repo](https://img.shields.io/badge/GitHub-Resume--Screening--AI-181717?style=flat-square&logo=github)](https://github.com/Sanjay-jat/Resume-Screening-AI)
-
-`Python` `Flask` `NLTK` `TF-IDF` `scikit-learn` `Render`
-
----
-
-### 📊 Trader Sentiment Analysis — Behavioural Finance Study
-> *Do traders make better decisions during Fear or Greed? The answer might surprise you.*
-
-Data analysis project studying how the Fear & Greed Index correlates with trader PnL, frequency, and risk. Key finding: traders take their **biggest risks during Fear** — but earn highest profits during **Extreme Greed**.
-
-[![Repo](https://img.shields.io/badge/GitHub-trader--sentiment--analysis-181717?style=flat-square&logo=github)](https://github.com/Sanjay-jat/trader-sentiment-analysis)
-
-`Python` `Pandas` `NumPy` `Matplotlib` `Seaborn` `Jupyter`
-
----
-
-### 🥇 Gold & Silver Price Predictor
-> *The project that started it all — evolved into FinanceAI.*
-
-Real-time ML dashboard for Gold & Silver price prediction with live tracking, technical indicators, and trading recommendations.
-
-[![Live Demo](https://img.shields.io/badge/Live%20Demo-Streamlit%20App-FF4B4B?style=flat-square&logo=streamlit)](https://gold-silver-price-prediction-33mkvwserlqin569rpk8ly.streamlit.app/)
-[![Repo](https://img.shields.io/badge/GitHub-gold--silver--price--prediction-181717?style=flat-square&logo=github)](https://github.com/Sanjay-jat/gold-silver-price-prediction)
-
-`Python` `scikit-learn` `Streamlit` `yfinance` `Plotly`
-
----
-
-## 🛠️ Tech stack
-
-**Languages & Frameworks**
-
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
-![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
-![Flask](https://img.shields.io/badge/Flask-000000?style=flat-square&logo=flask&logoColor=white)
-
-**ML & Data**
-
-![XGBoost](https://img.shields.io/badge/XGBoost-FF6600?style=flat-square)
-![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white)
-![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white)
-![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white)
-
-**Databases & Deployment**
-
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=flat-square&logo=postgresql&logoColor=white)
-![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white)
-![Render](https://img.shields.io/badge/Render-46E3B7?style=flat-square&logo=render&logoColor=black)
-![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=flat-square&logo=supabase&logoColor=white)
-
-
-## 🔭 What's next
-
-- [ ] 🤖 LangGraph AI agent — explain *why* the model said BUY or SELL in plain English
-- [ ] 📚 RAG document Q&A — upload any PDF, ask questions about it
-- [ ] 🌍 Macro features — DXY, VIX, Crude Oil, INR/USD added to FinanceAI
-- [ ] 📧 Email alerts on signal change
-
----
-
-## 💬 A note on my work
-
-I started with a Streamlit app predicting gold prices.
-Then rebuilt it as a full-stack platform with a real backend, real auth, and real ML pipeline.
-
-That's how I learn — ship something, find what's broken, build it better.
-
----
+<br>
 
 <div align="center">
 
-**Open to internships, collaborations, and interesting problems.**
+<pre>
+$ whoami
+&gt; Sanjay Jat
+&gt; Generative AI · Agentic AI · Machine Learning
 
-[![Let's connect](https://img.shields.io/badge/Let's%20connect%20on%20LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/sanjay-jat-250767346)
+$ cat current_focus.txt
+&gt; Building LLM systems that retrieve context,
+&gt; use tools, keep state, and finish the task.
+</pre>
+
+</div>
+
+<br>
+
+## 🧪 Currently Building
+
+<table align="center">
+<tr>
+<td width="50%" valign="top">
+
+**🔒 Recoverly** — Payment Recovery Agent
+
+`LangGraph` `FastAPI` `React` `PostgreSQL` `Docker`
+
+An agent that catches failed payments, weighs recovery options, checks compliance rules, and logs everything it does.
+
+`Private · Razorpay AI Buildathon 2026`
+
+</td>
+
+<td width="50%" valign="top">
+
+**📈 FinanceAI** — Signal Classifier
+
+`ML` `FastAPI` `React` `PostgreSQL`
+
+Live financial signal classification for Gold, Silver & Nifty 50, with auth, backtesting, and automated retraining.
+
+[Live Demo ↗](https://finance-ai-eight-vert.vercel.app) · [Code ↗](https://github.com/Sanjay-jat/FinanceAI)
+
+</td>
+</tr>
+
+<tr>
+<td width="50%" valign="top">
+
+**🧠 Hinglish Sentiment Analyzer**
+
+`NLP` `Machine Learning` `Python`
+
+Sentiment analysis for Hinglish — because half of India doesn't type in one language, and neither should the model.
+
+[Code ↗](https://github.com/Sanjay-jat/Hinglish-Sentiment-Analyzer)
+
+</td>
+
+<td width="50%" valign="top">
+
+**🔤 LSTM Next Word Predictor**
+
+`Deep Learning` `LSTM` `Python`
+
+Old-school sequence modelling — the project that taught me why Transformers happened.
+
+[Code ↗](https://github.com/Sanjay-jat/LSTM-Next-Word-Predictor)
+
+</td>
+</tr>
+</table>
+
+<br>
+
+## 📖 zero-to-agent — my learning log, in public
+
+**[→ github.com/Sanjay-jat/zero-to-agent](https://github.com/Sanjay-jat/zero-to-agent)**
+
+A living repo tracking the actual path from *"what is a token"* to shipping agentic systems. No polish, just receipts.
+
+`LLMs` → `Prompting` → `RAG` → `LangChain` → `LangGraph` → `Memory` → `Tools` → `MCP` → `Agents`
+
+<br>
+
+## 🗺️ The Roadmap
+
+<details>
+<summary><b>Click to expand — foundation → agentic systems</b></summary>
+
+<br>
+
+```text
+Machine Learning → NLP → Deep Learning → LLMs
+                                           │
+                          ┌────────────────┴────────────────┐
+                          ▼                                  ▼
+                         RAG                               TOOLS
+                          └────────────────┬────────────────┘
+                                           ▼
+                                        AGENTS
+                          ┌────────────────┼────────────────┐
+                          ▼                ▼                ▼
+                       MEMORY             MCP           EVALUATION
+                          └────────────────┼────────────────┘
+                                           ▼
+                                      AI SYSTEMS
+```
+
+**Foundation** — ✅ ML · ✅ NLP · ✅ Deep Learning · ✅ Backend · ✅ REST APIs
+
+**GenAI / Agentic** — ✅ LLM Fundamentals · ✅ RAG · ✅ LangChain · ✅ LangGraph  
+· ⬜ Advanced Agent Architectures · ⬜ MCP · ⬜ Agent Memory · ⬜ LLM Evaluation  
+· ⬜ Observability · ⬜ AI System Design
+
+</details>
+
+<br>
+
+## 🔁 How I Build
+
+<div align="center">
+
+<pre>
+IDEA
+ ↓
+RESEARCH
+ ↓
+BUILD
+ ↓
+TEST
+ ↓
+EVALUATE
+ ↓
+DEPLOY
+ ↓
+OBSERVE
+ ↓
+ITERATE
+ └──────────────→ BUILD AGAIN
+</pre>
+
+</div>
+
+I care about more than just making something work.
+
+I want to understand **why it works, where it fails, and how to improve it.**
+
+<br>
+
+## 🧰 Toolkit
+
+<div align="center">
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
+![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
+![C++](https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=postgresql&logoColor=white)
+
+</div>
+
+<br>
+
+## 📊 Activity
+
+<div align="center">
+
+<img src="https://github-readme-stats.vercel.app/api?username=Sanjay-jat&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" height="165" alt="GitHub Stats"/>
+
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=Sanjay-jat&theme=tokyonight&hide_border=true" height="165" alt="Streak Stats"/>
+
+<br>
+
+![GitHub Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=Sanjay-jat&theme=tokyo-night&hide_border=true)
+
+<br>
+
+<!-- snake animation: see setup note below -->
+
+<img src="https://raw.githubusercontent.com/Sanjay-jat/Sanjay-jat/output/github-contribution-grid-snake.svg" alt="Contribution Snake" />
+
+</div>
+
+> **One-time setup for the snake above:** add [`platane/snk`](https://github.com/Platane/snk) as a GitHub Action in this repo (runs daily, generates the SVG on an `output` branch). Until then, just delete that line — everything else works with zero setup.
+
+<br>
+
+## 💡 Principles
+
+<div align="center">
+
+<pre>
+01  Understand the problem before touching code
+02  Ship the smallest useful system
+03  Measure what actually works
+04  Go find the failure cases
+05  Improve, don't rebuild
+06  Write down what was learned
+</pre>
+
+</div>
+
+<br>
+
+<div align="center">
+
+### Let's talk agents, RAG pipelines, or why your prompt isn't working
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/sanjay-jat-250767346)
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Sanjay-jat)
+[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:sanjayjat354339@gmail.com)
+
+<sub>Built with markdown, shipped with `git push`.</sub>
 
 </div>
