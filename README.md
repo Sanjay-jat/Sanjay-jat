@@ -1,146 +1,89 @@
-<div align="center">
-
-# Hey, I'm Sanjay Jat 👋
-
-**Full-Stack AI/ML Developer · B.Tech CSE · Jaipur, India**
-
-*I don't just build models — I ship products.*
-
-<br/>
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/sanjay-jat-250767346)&nbsp;&nbsp;
-[![FinanceAI](https://img.shields.io/badge/Live%20Demo%20→%20FinanceAI-00C853?style=flat-square&logo=vercel&logoColor=white)](https://finance-ai-eight-vert.vercel.app)&nbsp;&nbsp;
-[![Gmail](https://img.shields.io/badge/sanjayjat354339%40gmail.com-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:sanjayjat354339@gmail.com)
-
-</div>
-
----
-
-## 🧠 About me
-
-🎓 &nbsp;B.Tech CSE student at a Jaipur university — 3rd year  
-💻 &nbsp;Building **production-deployed** AI/ML systems, not just notebooks  
-🤖 &nbsp;Strong interest in ML, NLP, and intelligent systems   
-🌱 &nbsp;Currently exploring **Machine-Learning**,**LLM agents**, RAG systems, and system design  
-💼 &nbsp;Open to ML/backend internships and collaborations  
-📍 &nbsp;Based in Jaipur, India
-
----
-
-## 🚀 What I've shipped
-
-### 🏆 FinanceAI — Financial Signal Classification System
-> *The project I'm most proud of. Built everything from scratch.*
-
-A **production-deployed, full-stack ML platform** that generates next-day BUY/SELL signals for Gold, Silver & Nifty 50 — trained on 10 years of market data.
-
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/banner-light.svg">
+  <img alt="Sanjay Jat. Building AI agents, RAG systems, and reliable backend infrastructure." src="assets/banner-dark.svg" width="100%">
+</picture>
+<p align="center">
+  <b><a href="https://regulatory-intelligence-engine-two.vercel.app/">Try the Regulatory Intelligence Engine live</a></b>
+  &nbsp;&nbsp;|&nbsp;&nbsp;
+  <a href="https://github.com/Sanjay-jat/regulatory-intelligence-engine">Source</a>
+  <br>
+  <sub>The live demo asks for your own Gemini API key before it answers anything.</sub>
+</p>
+Hi, I'm Sanjay. I'm a third-year B.Tech CSE student at Amity University Rajasthan, and I spend most of my time building AI agents, RAG systems, and the backend plumbing that keeps them from falling over.
+ 
+I like the unglamorous half of the problem: what the agent does when the search comes back empty, when a key is wrong, or when an action shouldn't happen without a human. That's usually where a demo turns into software.
+ 
+## How I build
+ 
+- **Agents get limits.** Retry caps, loop guards, a compliance check before anything executes, and a human approval step for the risky actions.
+- **"I don't know" is a valid answer.** I would rather have a system say it found nothing than make something up confidently.
+- **Failures should be loud.** Clear error messages, execution traces I can actually read, and, in other people's code, tool failures that are marked as failures.
+- **Demos love the happy path.** I spend my time on the other paths.
+## Featured projects
+ 
+### Regulatory Intelligence Engine
+ 
+Agentic RAG over SEBI and RBI circulars. These are long PDFs, some scanned, and old and new versions of the same rule sit online with nothing saying which one is current. You can ask in English or Hinglish, and it tells you which rule applies now and which one has been superseded.
+ 
 ```
-React Frontend  →  FastAPI Backend  →  XGBoost ML Engine  →  PostgreSQL (Supabase)
-     Vercel              Render              APScheduler
+route_intent → search_index → resolve_conflict → synthesize_answer → aggregate_output
 ```
-
-**What makes it real:**
-- 🔐 JWT authentication + freemium access model (like actual SaaS)
-- 📊 Backtesting engine across 1M / 3M / 6M / 1Y windows
-- 🔄 Automated weekly model retraining via APScheduler — zero manual work
-- 📰 Live financial news (Bloomberg, Reuters, Livemint via NewsAPI)
-- ⚡ 5-minute response caching on yfinance calls
-
-[![Live Demo](https://img.shields.io/badge/🌐%20Live%20Demo-finance--ai--eight--vert.vercel.app-00C853?style=flat-square)](https://finance-ai-eight-vert.vercel.app)
-[![Repo](https://img.shields.io/badge/GitHub-FinanceAI-181717?style=flat-square&logo=github)](https://github.com/Sanjay-jat/FinanceAI)
-[![Swagger](https://img.shields.io/badge/API%20Docs-Swagger%20UI-85EA2D?style=flat-square)](https://financeai-backend-0iqu.onrender.com/docs)
-
-| Asset | Model | Accuracy | F1 Score |
-|---|---|---|---|
-| 🥇 Gold | XGBoost | 59% | 0.53 |
-| 🥈 Silver | XGBoost | 51% | 0.49 |
-| 📈 Nifty 50 | XGBoost | 52% | 0.48 |
-
----
-
-### 📄 Resume Screening AI — NLP Job Role Classifier
-> *Upload resume text → get your predicted job role + confidence score.*
-
-An NLP-powered web app that classifies resumes into job roles using TF-IDF vectorization and a trained classifier — deployed live on Render.
-
-[![Live Demo](https://img.shields.io/badge/Live%20Demo-resume--screening--ai-00C853?style=flat-square&logo=render)](https://resume-screening-ai-a2fn.onrender.com/)
-[![Repo](https://img.shields.io/badge/GitHub-Resume--Screening--AI-181717?style=flat-square&logo=github)](https://github.com/Sanjay-jat/Resume-Screening-AI)
-
-`Python` `Flask` `NLTK` `TF-IDF` `scikit-learn` `Render`
-
----
-
-### 📊 Trader Sentiment Analysis — Behavioural Finance Study
-> *Do traders make better decisions during Fear or Greed? The answer might surprise you.*
-
-Data analysis project studying how the Fear & Greed Index correlates with trader PnL, frequency, and risk. Key finding: traders take their **biggest risks during Fear** — but earn highest profits during **Extreme Greed**.
-
-[![Repo](https://img.shields.io/badge/GitHub-trader--sentiment--analysis-181717?style=flat-square&logo=github)](https://github.com/Sanjay-jat/trader-sentiment-analysis)
-
-`Python` `Pandas` `NumPy` `Matplotlib` `Seaborn` `Jupyter`
-
----
-
-### 🥇 Gold & Silver Price Predictor
-> *The project that started it all — evolved into FinanceAI.*
-
-Real-time ML dashboard for Gold & Silver price prediction with live tracking, technical indicators, and trading recommendations.
-
-[![Live Demo](https://img.shields.io/badge/Live%20Demo-Streamlit%20App-FF4B4B?style=flat-square&logo=streamlit)](https://gold-silver-price-prediction-33mkvwserlqin569rpk8ly.streamlit.app/)
-[![Repo](https://img.shields.io/badge/GitHub-gold--silver--price--prediction-181717?style=flat-square&logo=github)](https://github.com/Sanjay-jat/gold-silver-price-prediction)
-
-`Python` `scikit-learn` `Streamlit` `yfinance` `Plotly`
-
----
-
-## 🛠️ Tech stack
-
-**Languages & Frameworks**
-
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
-![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
-![Flask](https://img.shields.io/badge/Flask-000000?style=flat-square&logo=flask&logoColor=white)
-
-**ML & Data**
-
-![XGBoost](https://img.shields.io/badge/XGBoost-FF6600?style=flat-square)
-![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white)
-![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white)
-![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white)
-
-**Databases & Deployment**
-
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=flat-square&logo=postgresql&logoColor=white)
-![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white)
-![Render](https://img.shields.io/badge/Render-46E3B7?style=flat-square&logo=render&logoColor=black)
-![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=flat-square&logo=supabase&logoColor=white)
-
-
-## 🔭 What's next
-
-- [ ] 🤖 LangGraph AI agent — explain *why* the model said BUY or SELL in plain English
-- [ ] 📚 RAG document Q&A — upload any PDF, ask questions about it
-- [ ] 🌍 Macro features — DXY, VIX, Crude Oil, INR/USD added to FinanceAI
-- [ ] 📧 Email alerts on signal change
-
----
-
-## 💬 A note on my work
-
-I started with a Streamlit app predicting gold prices.
-Then rebuilt it as a full-stack platform with a real backend, real auth, and real ML pipeline.
-
-That's how I learn — ship something, find what's broken, build it better.
-
----
-
-<div align="center">
-
-**Open to internships, collaborations, and interesting problems.**
-
-[![Let's connect](https://img.shields.io/badge/Let's%20connect%20on%20LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/sanjay-jat-250767346)
-
-</div
-
+ 
+- **One agent, on purpose.** Compliance answers should be predictable, so this is a single LangGraph agent rather than a multi-agent setup. Retries on empty results are capped, and permanent errors like a bad API key skip the retry entirely.
+- **Current vs superseded.** Answers are labelled CURRENT or SUPERSEDED, with fuzzy matching to survive OCR drift. Checked on the SEBI KYC change from 30 days to 15 days, including a follow-up question.
+- **Honest "not found".** Tested with an IRDAI query it had no documents for: it says so instead of guessing.
+- **Full execution trace page**, so you can see every step the agent took.
+- **Prompt-injection defenses** on all three LLM prompts.
+- **Bring-your-own Gemini key in production.** After a key showed up in a LangSmith trace, I moved it out of the graph state into a ContextVar.
+`FastAPI` `LangGraph` `FAISS` `Gemini` `Neon Postgres` `PyMuPDF + Tesseract` `React` `Docker`, backend on Render and frontend on Vercel.
+ 
+[Live demo](https://regulatory-intelligence-engine-two.vercel.app/) | [Source](https://github.com/Sanjay-jat/regulatory-intelligence-engine)
+ 
+### Recoverly
+ 
+When a payment fails, retrying blindly is the wrong move, and so is messaging a customer at a bad hour. Recoverly is a LangGraph agent that decides what to do about a failed payment, and it has to get past a compliance check before it does anything.
+ 
+```
+detect_decline → decide_action → compliance_gate → execute → track_outcome
+```
+ 
+- **Silent retries only for recurring payments** (saved card, UPI autopay). One-time payments get a message, never a surprise charge.
+- **Compliance gate.** Contact only within IST (8am-7pm), no retry on hard declines or without stored authorization, a retry cap, and opt-outs are honored.
+- **Human approval for big retries.** Anything of ₹10,000 or more goes to an approval queue, with a recovery probability computed from batch history.
+- **Live simulator and a replayable audit log** of every decision the agent made.
+**Scope, plainly:** retries are simulated charges with idempotency keys, with no real payment gateway behind them. On a synthetic, seeded batch of 200 payments the agent recovered about 38%. That number comes from generated data, not real payments.
+ 
+`FastAPI` `SQLAlchemy` `PostgreSQL` `React (Vite)` `Docker Compose`, Ollama locally and Gemini when deployed, frontend on Vercel and API on Render.
+ 
+[Live demo](https://payment-recovery-agent-j8szwylvt-sanjay05.vercel.app/) | [Source](https://github.com/Sanjay-jat/payment-recovery-agent)
+ 
+## Open source
+ 
+5 merged contributions across 4 repositories: fixes and features in other people's agent and tooling projects, merged after maintainer review.
+ 
+| Contribution | What I did |
+| --- | --- |
+| [amd/gaia#3740](https://github.com/amd/gaia/pull/3740) | Stopped agent turns from leaving Python files syntactically broken. `edit_file` now validates the result before writing or making a backup, and the turn tracks which files it changed. A maintainer later tightened the check during review. |
+| [mikehasa/agentacct#238](https://github.com/mikehasa/agentacct/pull/238) | Fixed a stale Work pane in the TUI that kept showing old receipts after background polls. Added a regression test. Shipped in release 0.10.10. |
+| [IndustriAgents/OPCUA-MCP#62](https://github.com/IndustriAgents/OPCUA-MCP/pull/62) | Failed Node tool calls now return the MCP `isError` flag, so clients can tell a failure from a result. Extended the failure-path tests to assert it. |
+| [IndustriAgents/OPCUA-MCP#22](https://github.com/IndustriAgents/OPCUA-MCP/pull/22) | Added an aggregate (processed history) read tool to the Python server, with capability detection and validation against the aggregate functions the server advertises. The maintainer added the UTC fix and the end-to-end tests. |
+| [sx4im/resultseal#10](https://github.com/sx4im/resultseal/pull/10) | Added a LangChain example that checks tool results before they reach the model, with a test proving empty results get blocked. |
+ 
+## Stack
+ 
+`Python` `C++`
+ 
+**AI:** `Machine Learning` `Deep Learning (PyTorch)` `Generative AI` `Agentic AI` `RAG`
+ 
+**Agent tooling:** `LangGraph` `LangChain` `MCP` `FAISS` `LangSmith` `Gemini` `Ollama`
+ 
+**Backend:** `FastAPI` `SQLAlchemy` `PostgreSQL`
+ 
+**Frontend and infra:** `React` `Docker` `Render` `Vercel`
+ 
+## Contact
+ 
+Happy to talk about agent reliability, RAG, or open-source work.
+ 
+[LinkedIn](https://www.linkedin.com/in/sanjay-jat/) | [Email](mailto:sanjayjat354339@gmail.com) | [LeetCode](https://leetcode.com/u/sanjayjat05/)
