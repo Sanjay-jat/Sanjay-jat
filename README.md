@@ -6,7 +6,9 @@
 
 <br>
 
-Hi, I'm Sanjay. I'm a 3rd-year CSE student at Amity University Rajasthan. I like building AI systems that do real work, and the backends that keep them honest.
+Hi, I'm Sanjay. 
+I'm a 3rd-year CSE student at Amity University Rajasthan. 
+I like building AI systems that do real work, and the backends that keep them honest.
 
 ### What I'm exploring
 
