@@ -86,6 +86,6 @@ Reliability fixes, agent tooling, MCP tooling and LangChain integrations.
 
 ### Say hi
 
-Got a flaky agent? Send it over to me.
+Got a flaky agent? Send it over.
 
 [LinkedIn](https://www.linkedin.com/in/sanjay-jat/) &nbsp;·&nbsp; [Email](mailto:sanjayjat354339@gmail.com) &nbsp;·&nbsp; [LeetCode](https://leetcode.com/u/sanjayjat05/)
