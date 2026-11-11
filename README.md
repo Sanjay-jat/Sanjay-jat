@@ -28,7 +28,7 @@ I like building AI systems that do real work, and the backends that keep them ho
 - Making agent and tool workflows dependable enough to leave running.
 - Turning "it worked once" into something I can test and trace.
 
-### Selected work
+### Selected work.
 
 <a href="https://regulatory-intelligence-engine-two.vercel.app/">
 <picture>
