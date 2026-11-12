@@ -26,7 +26,7 @@ I like building AI systems that do real work, and the backends that keep them ho
 ### Current focus
 
 - Making agent and tool workflows dependable enough to leave running.
-- Turning "it worked once" into something I can test and trace.
+- Turning "it worked once" into something I can test and trace
 
 ### Selected work.
 
