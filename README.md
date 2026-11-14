@@ -6,7 +6,7 @@
 
 <br>
 
-Hi, I'm Sanjay. 
+Hi, I'm Sanjay jat.
 I'm 3rd-year CSE student at Amity University Rajasthan. 
 I like building AI systems that do real work, and the backends that keep them honest.
 
